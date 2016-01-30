@@ -8,7 +8,7 @@ Create a new `conda` environment, activate it, and install the required
 dependencies:
 
 ```
-conda create -y -n skbio-adiv python=3.4
+conda create -y -n skbio-adiv python=3.4 h5py
 source activate skbio-adiv
 conda install -y -c https://conda.anaconda.org/biocore scikit-bio
 pip install biom-format
